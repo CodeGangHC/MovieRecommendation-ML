@@ -4,7 +4,7 @@ Used Python and Jupyter Notebook to create a Movie Recommendation System.<br>
 This ML model is trained based on movie contents and will recommend movies based on similar contents: genre, director, keywords, etc.<br>
 Data were collected through kaggle:
 https://www.kaggle.com/code/ibtesama/getting-started-with-a-movie-recommendation-system
-I've created a soup that contains cast, director, keywords, genres.<br>
+<br>I've created a soup that contains cast, director, keywords, genres.<br>
 And then calculated cosine similarity to compare the movies, so that later on the model can suggest the movie based on higher cosine similarity.<br>
 I dumped the movie info to movies.pickle and cosine similarity to cosine_sim.pickle.<br> 
 (cosine similarty File was too big and was unable to attach. Please reference the 'Movie Recommendation System.ipynb' for details of what I've done.<br>
